@@ -35,3 +35,12 @@ alter table suradnik_obrana add foreign key (obrana) references obrana(sifra);
 
 insert into klijent(ime,prezime)
 values('Zdravko','Mamiæ'),('Zoran','Mamiæ');
+
+insert into obrana(klijent,datum_pocetka)
+values(1,'2021-05-20'),(2,'2021-05-20');
+
+insert into suradnik(ime,prezime)
+values('Luka','Modriæ'),('Dejan','Lovren');
+
+insert into suradnik_obrana(suradnik,obrana)
+values(1,2),(2,1);
