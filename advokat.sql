@@ -27,3 +27,8 @@ create table suradnik_obrana(
 	suradnik int,
 	obrana int
 );
+
+alter table obrana add foreign key (klijent) references klijent(sifra);
+
+alter table suradnik_obrana add foreign key (suradnik) references suradnik(sifra);
+alter table suradnik_obrana add foreign key (obrana) references obrana(sifra);
