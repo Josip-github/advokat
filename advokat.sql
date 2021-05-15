@@ -44,3 +44,5 @@ values('Luka','Modriæ'),('Dejan','Lovren');
 
 insert into suradnik_obrana(suradnik,obrana)
 values(1,2),(2,1);
+
+update suradnik set ime='Vanja' where prezime='Modriæ';
