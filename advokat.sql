@@ -32,3 +32,6 @@ alter table obrana add foreign key (klijent) references klijent(sifra);
 
 alter table suradnik_obrana add foreign key (suradnik) references suradnik(sifra);
 alter table suradnik_obrana add foreign key (obrana) references obrana(sifra);
+
+insert into klijent(ime,prezime)
+values('Zdravko','Mamiæ'),('Zoran','Mamiæ');
