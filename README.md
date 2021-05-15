@@ -1,0 +1,2 @@
+# advokat
+ advokat baza podataka
